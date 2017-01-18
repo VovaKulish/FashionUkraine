@@ -1,0 +1,355 @@
+.bread-crumbs {
+    width: 100%;
+    height: 31px;
+    margin: 44px 0;
+    background-color: #f8f8fa;
+}
+
+.bread-crumbs-path {
+    display: flex;
+    align-items: center;
+    height: 31px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.title-collection {
+    display: none;
+}
+
+.bread-crumbs-path span {
+    font-size: 14px;
+    color: #4d576a;
+    padding-left: 15px;
+}
+
+.previous-crumb {
+    font-weight: normal;
+}
+
+.crumb-connector {
+    font-size: 16px;
+    color: #555b8d;
+}
+
+.current-crumb {
+    font-weight: bold;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    margin-bottom: 50px;
+}
+
+.page-title h1 {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #2e435d;
+}
+
+.collection-title {
+    width: 75px;
+    height: 19px;
+    margin-left: 9px;
+    border-radius: 4px;
+    background-color: #4d576a;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.collection-title span {
+    line-height: 20px;
+}
+
+.other-collections {
+    position: relative;
+    margin-bottom: 80px;
+    height: 100%;
+    width: 100%;
+    background-color: #4d576a;
+}
+
+.collections-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #4d576a;
+}
+
+.collections-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid {
+    padding-bottom: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+    display: flex;
+    align-items: flex-end;
+    margin: 25px 13px 0;
+    float: left;
+}
+
+.grid-item1 {
+    background: url(images/collection-photo1.jpg) no-repeat center;
+    background-size: cover;
+    width: 29.5%;
+}
+
+.extend-item1 {
+    width: 100%;
+    height: 155px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item2 {
+    background: url(images/collection-photo2.jpg) no-repeat center;
+    background-size: cover;
+    width: 25.6%;
+}
+
+.extend-item2 {
+    width: 100%;
+    height: 93px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item3 {
+    background: url(images/collection-photo3.jpg) no-repeat center;
+    background-size: cover;
+    width: 35%;
+}
+
+.extend-item3 {
+    width: 100%;
+    height: 198px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item4 {
+    background: url(images/collection-photo4.jpg) no-repeat center;
+    background-size: cover;
+    width: 33%;
+}
+
+.extend-item4 {
+    width: 100%;
+    height: 179px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item5 {
+    background: url(images/collection-photo5.jpg) no-repeat center;
+    background-size: cover;
+    width: 22%;
+}
+
+.extend-item5 {
+    width: 100%;
+    height: 119px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item6 {
+    background: url(images/collection-photo6.jpg) no-repeat center;
+    background-size: cover;
+    width: 39%;
+}
+
+.extend-item6 {
+    width: 100%;
+    height: 119px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item7 {
+    background: url(images/collection-photo7.jpg) no-repeat center;
+    background-size: cover;
+    width: 18%;
+}
+
+.extend-item7 {
+    width: 100%;
+    height: 119px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item8 {
+    background: url(images/collection-photo8.jpg) no-repeat center;
+    background-size: cover;
+    width: 18%;
+}
+
+.extend-item8 {
+    width: 100%;
+    height: 119px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item9 {
+    background: url(images/collection-photo9.jpg) no-repeat center;
+    background-size: cover;
+    width: 33%;
+}
+
+.extend-item9 {
+    width: 100%;
+    height: 119px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item10 {
+    background: url(images/collection-photo10.jpg) no-repeat center;
+    background-size: cover;
+    width: 60%;
+}
+
+.extend-item10 {
+    width: 100%;
+    height: 62px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.grid-item11 {
+    background: url(images/collection-photo11.jpg) no-repeat center;
+    background-size: cover;
+    width: 33%;
+}
+
+.extend-item11 {
+    width: 100%;
+    height: 157px;
+    background-size: 100%;
+    padding-bottom: 120%;
+}
+
+.white-squares {
+    position: absolute;
+    opacity: .19;
+    background-color: #d8d8d8;
+    z-index: 1;
+}
+
+.white-squares.square1 {
+    width: 72px;
+    height: 53px;
+    margin: 45% 0 0 34%;
+}
+
+.white-squares.square2 {
+    width: 98px;
+    height: 200px;
+    z-index: 0;
+    margin: 67% 0 0 62%;
+}
+
+.white-squares.square3 {
+    width: 154px;
+    height: 90px;
+    margin: 139% 0 0 81.5%;
+}
+
+.white-squares.square4 {
+    width: 38px;
+    height: 139px;
+    margin: 147% 0 0 35%;
+}
+
+@media (max-width: 1024px) {
+    .other-collections {
+        zoom: 0.9;
+    }
+}
+
+@media (max-width: 821px) {
+    .white-squares.square1 {
+        margin: 45.4% 0 0 33.5%;
+    }
+
+    .white-squares.square2 {
+        margin-top: 69%;
+    }
+
+    .white-squares.square3 {
+        margin: 143% 0 0 79.8%;
+    }
+
+    .white-squares.square4 {
+        margin-top: 148%;
+    }
+}
+
+@media (max-width: 730px) {
+    .bread-crumbs-path {
+        margin: 0 auto 0 10px;
+        width: 240px;
+    }
+
+    .bread-crumbs {
+        margin: 0 0 10px;
+    }
+
+    .page-title {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .title-collection {
+        display: block;
+        line-height: 60px;
+        background-color: #444e5e;
+        text-align: center;
+    }
+
+    .title-collection h1 {
+        color: #fff;
+        margin: 0;
+        letter-spacing: 0.3px;
+    }
+
+    .grid-item {
+        width: 94%;
+        margin: 0 0 10px;
+    }
+
+    .grid {
+        padding: 20px 10px 10px;
+    }
+
+    .white-squares {
+        display: none;
+    }
+}

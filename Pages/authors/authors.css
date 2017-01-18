@@ -1,0 +1,216 @@
+@font-face {
+    font-family: InterFontBlack;
+    src: local('?'), url('../../Assets/Fonts/INTERFONT-BLACK.OTF') format('opentype')
+}
+
+body {
+    margin: 0;
+    font-family: Corbel, Arial, Helvetica, sans-serif;
+    color: #555b8d;
+}
+
+.bread-crumbs {
+    width: 100%;
+    height: 31px;
+    margin: 31px 0 44px;
+    background-color: #f8f8fa;
+}
+
+.page-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    line-height: 6px;
+    font-family: InterFontBlack, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.page-title h1 {
+    width: 235px;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #2e435d;
+    font-family: InterFontBlack, Arial, Helvetica, sans-serif;
+}
+
+h1.title-circle:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #4d576a;
+    border-radius: 50%;
+}
+
+article.authors {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+article.authors .flex-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+article.authors .flex-wrapper section {
+    width: 196px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+article.authors .flex-wrapper section p,
+article.authors .flex-wrapper section a {
+    text-align: center;
+    margin: 15px 0;
+}
+
+article.authors .flex-wrapper section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #555b8d;
+    width: 95px;
+    height: 25px;
+    margin: 0 auto;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #555b8d;
+}
+
+article.authors .flex-wrapper section a:before {
+    content: '';
+    background: url("../../Assets/elements/email-envelope-outline.svg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover !important;
+    width: 15px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+article.authors .flex-wrapper section .image {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: cover !important;
+}
+
+article.authors .flex-wrapper section .sergeeva {
+    background: url("images/sergeeva.jpg") top;
+}
+
+article.authors .flex-wrapper section .davidova {
+    background: url("images/davidova.jpg") top;
+}
+
+article.authors .flex-wrapper section .akrishora {
+    background: url("images/akrishora.JPG") top;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+article.authors .flex-wrapper section .masuk {
+    background: url("images/masuk.jpg") top;
+}
+
+article.authors .flex-wrapper section .matysova {
+    background: url("images/matysova.jpg") top;
+}
+
+.author_line {
+    width: 24px;
+    height: 4px;
+    background-color: #bec5e8;
+    margin: 0 auto;
+}
+
+article.authors .flex-wrapper section p.author_name {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #555b8d;
+    margin: 20px 0;
+}
+
+.author_desc {
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #555b8d;
+}
+
+.hr_mobile {
+    display: none;
+    width: 95%;
+    height: 4px;
+    background-color: #eef0fa;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 900px) {
+    article.authors {
+        max-width: 660px;
+    }
+
+    article.authors .flex-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) {
+    .bread-crumbs {
+        display: none;
+    }
+
+    .author_line {
+        display: none;
+    }
+
+    .page-title {
+        line-height: 60px;
+        background-color: #444e5e;
+        margin-bottom: 0;
+    }
+
+    .page-title h1 {
+        color: #fff;
+        margin: 0;
+    }
+
+    h1.title-circle:before {
+        display: none;
+    }
+
+    article.authors .flex-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article.authors .flex-wrapper section {
+        margin: 30px 0;
+    }
+
+    article.authors .flex-wrapper section p.author_desc {
+        margin: 10px 0 18px;
+    }
+
+    article.authors .flex-wrapper section p.author_name {
+        margin: 20px 0 0;
+    }
+
+    .hr_mobile {
+        display: block;
+    }
+}

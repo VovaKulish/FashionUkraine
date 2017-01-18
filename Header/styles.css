@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Corbel, Arial, Helvetica, sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.site-header {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 17px;
+}
+.site-header .logo {
+  display: inline-block;
+  padding-top: 15px;
+}
+.site-header .header-content {
+  float: right;
+}
+.site-header .header-content .call-back {
+  background-color: #7dbbdb;
+  border-radius: 0 0 10px 10px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1px 0 0 25px;
+}
+.site-header .header-content .call-back a {
+  color: #fff;
+  line-height: 30px;
+  padding: 0 20px;
+}
+.site-header .header-content .socials {
+  display: inline-block;
+  height: 31px;
+}
+.site-header .header-content .socials a {
+  margin-right: 5px;
+  vertical-align: top;
+}
+.site-header .header-content .basket-delivery {
+  display: inline-block;
+  height: 31px;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.site-header .header-content .basket-delivery > a {
+  font-size: 14px;
+  color: #7C8999;
+}
+.site-header .header-content .basket-delivery .basket {
+  position: relative;
+  margin-left: 10px;
+}
+.site-header .header-content .basket-delivery .basket:before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #016587;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -12px;
+}
+.site-header .header-content .basket-delivery .payment-delivery {
+  margin-right: 10px;
+  line-height: 31px;
+}
+.site-navigation {
+  font-size: 17px;
+  text-align: center;
+}
+.site-navigation ul.main {
+  display: inline-block;
+  margin-top: 0;
+}
+.site-navigation ul.main a {
+  display: inline-block;
+}
+.site-navigation ul.main > li:hover ul.sub-menu {
+  display: block;
+  min-width: 160px;
+}
+.site-navigation ul.main > li {
+  display: inline-block;
+  position: relative;
+}
+.site-navigation ul.main > li > a {
+  height: 27px;
+}
+.site-navigation ul.main > li > a::after {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 1px;
+  color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+.site-navigation ul.main ul.sub-menu {
+  display: none;
+  position: absolute;
+  text-align: left;
+  border-left: 2px solid #D6DFEA;
+  top: 17px;
+  background-color: #fff;
+  z-index: 1;
+}
+.site-navigation ul.main ul.sub-menu > li {
+  font-size: 14px;
+}
+.site-navigation ul.main ul.sub-menu > li:nth-child(1) {
+  padding-top: 10px;
+}
+.site-navigation ul.main a {
+  color: #7C8999;
+  padding: 0 25px;
+}
+.site-navigation ul.main a:hover {
+  font-weight: bold;
+}
+.site-navigation ul.main > li:nth-child(n+2) > a::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 7px;
+  left: 0;
+  height: 10px;
+  border-left: 2px solid #D6DFEA;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>facebookLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="29 29.6146438 29 0.000205479452 0.000161111111 0.000205479452 0.000161111111 29.6146438"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07-UF_avtory" transform="translate(-923.000000, 0.000000)">
+            <g id="header" transform="translate(0.000000, -15.000000)">
+                <g id="facebookLogo" transform="translate(923.000000, 14.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M12.1934528,24.3790274 L12.1934528,14.8513562 L10.2460222,14.8513562 L10.2460222,11.6080685 L12.1934528,11.6080685 L12.1934528,9.0539589 C12.1934528,6.65683562 13.4497167,5.40505479 16.2361333,5.40505479 L18.8292167,5.40505479 L18.8292167,8.72930137 L16.8024389,8.72930137 C16.0871056,8.72930137 15.9380778,9.02806849 15.9380778,9.78341096 L15.9380778,11.6080685 L18.8292167,11.6080685 L18.5504944,14.8110822 L15.9380778,14.8110822 L15.9380778,24.3790274 L12.1934528,24.3790274 Z M0.000161111111,29.6146438 L29.0001611,29.6146438 L29.0001611,0.000123287671 L0.000161111111,0.000123287671 L0.000161111111,29.6146438 Z" id="Fill-1" fill="#70AFCF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

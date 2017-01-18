@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    font-family: Corbel, Arial, Helvetica, sans-serif;
+    color: #4d576a;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.bread-crumbs {
+    width: 100%;
+    height: 31px;
+    margin: 31px 0 44px;
+    background-color: #f8f8fa;
+}
+
+.page-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    line-height: 6px;
+    margin-bottom: 50px;
+}
+
+.page-title h1 {
+    width: 230px;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #2e435d;
+    font-family: InterFontBlack, Arial, Helvetica, sans-serif;
+}
+
+h1.title-circle:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #4d576a;
+    border-radius: 50%;
+}
+
+.clients {
+    background-color: #4d576a;
+}
+
+section {
+    max-width: 995px;
+    margin: 0 auto;
+}
+
+section.send {
+    max-width: 575px;
+    margin: 50px auto 50px;
+    padding-bottom: 50px;
+}
+
+.first-miniature {
+    background: url("../../Assets/images2/clients/2432_90.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.second-miniature {
+    background: url("../../Assets/images2/clients/2432_98.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.third-miniature {
+    background: url("../../Assets/images2/clients/2432_97.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.fourth-miniature {
+    background: url("../../Assets/images2/clients/2432_96.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.fifth-miniature {
+    background: url("../../Assets/images2/clients/2432_95.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.sixth-miniature {
+    background: url("../../Assets/images2/clients/2432_94.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+.gallery-desc {
+    display: none;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    margin: 8px 0 40px 10px;
+}
+
+section p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+.main-section figure {
+    background-color: rgba(110, 121, 141, 0.52);
+    margin: 0;
+    text-align: center;
+}
+
+.main-section {
+    padding-top: 30px;
+}
+
+.main-picture {
+    width: 586px;
+    height: 450px;
+    margin-bottom: -4px;
+}
+
+.picture-miniatures {
+    max-width: 985px;
+    margin: 40px auto 0;
+    padding-left: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.active-miniature {
+    box-sizing: content-box;
+    border: 8px solid #fff;
+}
+
+.picture-miniatures figure {
+    width: 15%;
+    height: 207px;
+    margin: 0 0 10px 3%;
+    display: inline-block;
+}
+
+.picture-miniatures figure.first-miniature {
+    margin: 0 0 3px;
+}
+
+@media (max-width: 950px) {
+    section.send, .page-title {
+        margin-bottom: 45px;
+    }
+
+    section {
+        max-width: 728px;
+    }
+
+    .main-picture {
+        width: 429px;
+        height: 330px;
+    }
+
+    .picture-miniatures {
+        margin-top: 30px;
+        padding-left: 5px;
+    }
+
+    .picture-miniatures figure {
+        width: 145px;
+    }
+}
+
+@media (max-width: 700px) {
+    .bread-crumbs {
+        display: none;
+    }
+
+    .page-title {
+        line-height: 60px;
+        background-color: #444e5e;
+        margin-bottom: 0;
+    }
+
+    .page-title h1 {
+        color: #fff;
+        margin: 0;
+    }
+
+    h1.title-circle:before {
+        display: none;
+    }
+
+    section {
+        max-width: 320px;
+    }
+
+    .main-picture {
+        width: 100%;
+        height: 100%;
+    }
+
+    .picture-miniatures figure {
+        width: 59px;
+        height: 79px;
+    }
+
+    .picture-miniatures figure.fifth-miniature {
+        width: 45px;
+    }
+
+    .active-miniature {
+        box-sizing: content-box;
+        border: 3px solid #fff;
+    }
+
+    .picture-miniatures {
+        margin-top: 5px;
+        padding-left: 10px;
+    }
+
+    .clients {
+        background-color: #444e5e;
+    }
+
+    .main-section {
+        padding-top: 0;
+    }
+
+    section.send {
+        margin-bottom: 40px;
+        margin-top: 0;
+        padding: 0 10px 1px;
+    }
+    section.send p {
+        margin-bottom: 20px;
+    }
+    .gallery-desc {
+        display: block;
+    }
+}

@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'InterFontBlack';
+    src: local('?'), url('../../../../Assets/Fonts/INTERFONT-BLACK.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InterFontRegular';
+    src: local('?'), url('../../../../Assets/Fonts/INTERFONT-REGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    font-size: 100%;
+    font-family: Corbel, Arial, Helvetica, sans-serif;
+}
+
+.bread-crumbs {
+    width: 100%;
+    height: 31px;
+    margin: 31px 0 44px;
+    background-color: #f8f8fa;
+}
+
+.page-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    line-height: 6px;
+    margin-bottom: 50px;
+}
+
+.page-title h1 {
+    width: 120px;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #2e435d;
+    font-family: InterFontBlack, Arial, Helvetica, sans-serif;
+}
+
+h1.title-circle:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #4d576a;
+    border-radius: 50%;
+}
+
+.section-container {
+    margin-bottom: 6.5vw;
+}
+
+.statji-picture {
+    margin-left: 16.3%;
+    width: 17.84%;
+    display: inline-block;
+    margin-right: 40px;
+    min-width: 257px;
+    max-width: 350px;
+
+}
+
+.statji-text-container {
+    display: inline-block;
+    width: 45.16%;
+    vertical-align: top;
+    margin: 0;
+}
+
+.statji-date {
+    font-family: InterFontRegular, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #4d576a;
+    font-size: 0.875em;
+}
+
+.statji-mobile-link {
+    display: none;
+}
+
+.statji-article-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0.6px;
+    color: #4d576a;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.statji-atricle-text {
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 0.875em;
+    color: #4d576a;
+    line-height: 1.4em;
+}
+
+.statji-article-link {
+    margin: 0;
+    font-size: 0.95em;
+    color: #4D576A;
+    text-decoration: inherit;
+}
+
+.divider-line {
+    display: none;
+}
+
+.statji-interview-alert {
+    width: 10vw;
+    background-color: #0479a1;
+    color: #f1f7f9;
+    margin: 0;
+    text-align: center;
+    border-radius: 5px;
+    font-style: italic;
+    vertical-align: middle;
+    padding: 1px 5px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: normal;
+}
+
+#statji-section-5 {
+    margin-bottom: 9.1vw;
+}
+
+.statji-picture {
+    margin-left: 11%;
+}
+
+.statji-text-container {
+
+    width: 49.16%;
+}
+
+/******** query tablet ***********/
+
+@media (max-width: 1000px) {
+    .statji-picture {
+        margin-left: 20px;
+        width: 225px;
+        display: inline-block;
+        margin-right: 16px;
+    }
+
+    .statji-text-container {
+        display: inline-block;
+        width: calc(100% - 320px);
+
+        vertical-align: top;
+        margin: 0;
+    }
+
+    .statji-atricle-text {
+        margin-bottom: 3px;
+    }
+}
+
+/******** query tablet end ***********/
+
+/****** query mobile ******/
+
+@media (max-width: 700px) {
+    .bread-crumbs {
+        display: none;
+    }
+
+    .page-title {
+        line-height: 60px;
+        background-color: #444e5e;
+        margin-bottom: 30px;
+    }
+
+    .page-title h1 {
+        color: #fff;
+        margin: 0;
+    }
+
+    h1.title-circle:before {
+        display: none;
+    }
+
+    .section-container {
+        text-align: center;
+        display: table;
+        width: 100%;
+    }
+
+    .statji-picture {
+        display: table-footer-group;
+        width: 70.3%;
+        margin: auto;
+        min-width: 1px;
+
+    }
+
+    .statji-text-container {
+        display: table-header-group;
+        width: 100%;
+
+    }
+
+    .statji-article-title {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .statji-atricle-text,
+    .statji-article-link {
+        display: none;
+    }
+
+    .divider-line {
+        display: block;
+        border: none;
+        background-color: #E7EAF7;
+        height: 4px; /* 4 px */
+        margin: 30px 3%;
+    }
+
+    .statji-article-title {
+        display: none;
+    }
+
+    .statji-mobile-link {
+        display: block;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    a .statji-article-title {
+        display: block;
+    }
+
+    .section-container {
+        margin-bottom: 0;
+    }
+}

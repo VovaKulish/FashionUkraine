@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+}
+.pop-up {
+  width: 680px;
+  height: 375px;
+  margin: 0 auto;
+  padding: 35px 50px;
+}
+.pop-up .btn {
+  height: 40px;
+  width: 195px;
+  text-align: center;
+}
+.pop-up .continue-btn {
+  height: 40px;
+  width: 195px;
+  text-align: center;
+  float: left;
+  color: #acacd6;
+  border: 2px solid #acacd6;
+  box-sizing: border-box;
+  line-height: 35px;
+}
+.pop-up .checkout-btn {
+  height: 40px;
+  width: 195px;
+  text-align: center;
+  float: right;
+  color: #fff;
+  background-color: #555b8d;
+  line-height: 40px;
+}
+.pop-up table {
+  width: 100%;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+.pop-up table caption {
+  text-align: left;
+}
+.pop-up table th {
+  font-weight: normal;
+  border-bottom: 3px solid #f4f6fe;
+  padding: 10px 0;
+}
+.pop-up table tr {
+  vertical-align: top;
+}
+.pop-up table tr td {
+  text-align: center;
+  padding-top: 18px;
+}
+.pop-up table tr td .number {
+  width: 20px;
+  border: none;
+  text-align: center;
+}
+.pop-up table tr td span {
+  cursor: pointer;
+}
+.pop-up table tr .product {
+  text-align: left;
+}
+.pop-up table tr .product p {
+  margin: 0;
+}
+.pop-up table tr .product .image {
+  width: 92px;
+  height: 120px;
+  background: url("images/2346_797.jpg") center no-repeat;
+  background-size: cover;
+  float: left;
+  margin-right: 10px;
+}
+.pop-up table tr .product .size {
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #969fc7;
+}

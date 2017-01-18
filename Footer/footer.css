@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Corbel, Arial, Helvetica, sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.content {
+  min-height: calc(100vh - 475px);
+}
+.footer {
+  position: relative;
+  height: 255px;
+  background-color: #F1F1F8;
+  padding: 55px 10%;
+  color: #5A6B7F;
+}
+.footer a {
+  color: #5A6B7F;
+}
+.footer .logo {
+  color: #000;
+}
+.footer .logo img {
+  margin: 0 30px -11px 0;
+}
+.footer .footer-navigation {
+  display: inline-block;
+}
+.footer .footer-navigation .sub-menu {
+  margin-top: 5px;
+}
+.footer .footer-navigation > ul {
+  display: inline-block;
+  margin: 0 0 0 45px;
+  float: left;
+}
+.footer .footer-navigation div.floated > ul {
+  margin-top: 0;
+}
+.footer .footer-navigation div.floated {
+  margin-left: 45px;
+}
+.footer .footer-navigation .top-margin {
+  margin-top: 20px!important;
+}
+.footer .footer-navigation .floated {
+  float: left;
+}
+.footer .bold {
+  font-weight: bold;
+}
+.footer .top {
+  margin-bottom: 20px;
+}
+.footer .top p {
+  display: inline-block;
+}
+.footer .contacts {
+  position: relative;
+  top: -227px;
+  left: 85%;
+  width: 220px;
+}
+.footer .contacts .socials img {
+  height: 22px;
+  margin-right: 8px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 55px 2%;
+  }
+  .footer .logo img {
+    margin: 0 2px -11px 0;
+  }
+  .footer .footer-navigation > ul {
+    margin: 0 0 0 25px;
+  }
+  .footer .footer-navigation div.floated {
+    margin-left: 25px;
+  }
+  .footer .contacts {
+    position: relative;
+    top: -232px;
+    left: 70%;
+    width: 32%;
+  }
+}

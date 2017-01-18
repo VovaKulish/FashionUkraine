@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    a {
+        text-decoration: none;
+    }
+}
+
+.main-page {
+	.btn {
+		display: inline-block;
+		width: 310px;
+		height: 65px;
+		line-height: 65px;
+		text-align: center;
+	}
+    .header {
+        height: 656px;
+        box-sizing: border-box;
+        background: url("./images/main_header.jpg") no-repeat center;
+        background-size: cover;
+        color: #ffffff;
+        padding-top: 215px;
+        .content {
+            height: 100%;
+
+            h1 {
+                text-transform: capitalize;
+                margin-top: 0;
+            }
+            .catalog-menu {
+                display: inline-block;
+                height: 100%;
+                width: 320px;
+                background-color: #dde3e6;
+                opacity: 0.8;
+                float: left;
+                margin-right: 70px;
+                ul {
+                    padding: 45px 0 45px 50px;
+                    margin: 0;
+                    li {
+                        list-style-type: none;
+                        border-bottom: 2px solid white;
+                        a {
+                            color: #2e435d;
+                        }
+                    }
+                    li:last-child {
+                        border: none;
+                    }
+                }
+                            }
+            .header-description {
+                margin-left: 70px;
+                a {
+                    color: #fff;
+                }
+                .catalog-btn {
+					.btn;
+                    border: 3px solid #ffffff;
+                }
+            }
+        }
+    }
+	.shops {
+		.our-shops {
+			background-color: #445168;
+			padding: 75px 0;
+			.photos {
+				margin-right: 60px;
+				.big {
+					width: 415px;
+					height: 310px;
+					float: left;
+					margin-right: 10px;
+				}
+				.flex-wrapper {
+					display: flex;
+					flex-direction: column;
+					.small {
+						width: 200px;
+						height: 150px;
+					}
+					.small:first-child {
+						margin-bottom: 10px;
+					}
+				}
+			}
+			.photos, .shops-details {
+				display: inline-block;
+			}
+			.shops-details {
+				color: #fff;
+				p {
+					margin: 0;
+				}
+				h2 {
+					display: inline-block;
+				}
+				.address {
+					border-left: 4px solid #5e6b90;
+					padding-left: 10px;
+					margin-bottom: 60px;
+					p:nth-child(2) {
+						margin: 35px 0;
+					}
+				}
+			}
+		}
+	}
+	.subscription {
+		height: 765px;
+		text-align: center;
+		.wrapper {
+			width: 425px;
+			margin: 0 auto;
+			h2 {
+				color: #717e98;
+				margin: 70px 0 0;
+			}
+			h2 + p {
+				margin: 50px 0 30px;
+			}
+			.email {
+				height: 48px;
+				width: 100%;
+				border: 2px solid #b7c6d4;
+				padding: 0 20px;
+				box-sizing: border-box;
+			}
+			.subscribe-btn {
+				display: inline-block;
+				height: 48px;
+				width: 220px;
+				color: #fff;
+				background-color: #0093c5;
+				line-height: 48px;
+				margin-top: 25px;
+			}
+			.subscribe-btn + p {
+				margin: 80px 0 0;
+			}
+			.socials-wrapper {
+				width: 200px;
+				margin: 0 auto;
+				.social-link {
+					display: inline-block;
+					margin-top: 35px;
+				}
+			}
+		}
+	}
+	.new-incomes {
+		text-align: center;
+		padding: 105px 0 70px;
+		.flex-wrapper {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 50px;
+			.line {
+				width: 25px;
+				margin: 0 auto;
+				border-bottom: 4px solid #6473a7;
+			}
+			.image {
+				height: 295px;
+				width: 225px;
+
+				background-size: cover !important;
+			}
+			.coat {
+				background: url("./images/2346_822.jpg");
+			}
+			.skirt {
+				background: url("./images/2346_797.jpg");
+			}
+			.dress {
+				background: url("./images/2346_753.jpg");
+			}
+			.beige-dress {
+				background: url("./images/2346_756.jpg");
+			}
+		}
+		.new-btn {
+			.btn;
+			border: 3px solid #597289;
+		}
+	}
+}

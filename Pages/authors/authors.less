@@ -1,0 +1,76 @@
+article.authors {
+	width: 80%;
+	margin: 0 auto;
+	h1 {
+		text-align: center;
+		color: #2e435d;
+		text-transform: uppercase;
+		position: relative;
+	}
+	h1:before {
+		content: '';
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+		background-color: #2e435d;
+		position: absolute;
+		top: ~"calc(50% - 4px)";
+		left: ~"calc(50% - 140px)";
+	}
+	.flex-wrapper {
+		display: flex;
+		justify-content: space-around;
+		section {
+			display: inline-block;
+			p, a {
+				text-align: center;
+			}
+			a {
+				text-decoration: none;
+				border: 1px solid #555b8d;
+				display: block;
+				width: 95px;
+				height: 25px;
+				margin: 0 auto;
+			}
+			a:before {
+				content: '';
+				background: url("images/email-envelope.svg") no-repeat;
+				-webkit-background-size: cover;
+				background-size: cover!important;
+				width: 15px;
+				height: 10px;
+				display: inline-block;
+			}
+			.image {
+				height: 160px;
+				width: 160px;
+				border-radius: 50%;
+				display: inline-block;
+				background-size: cover !important;
+			}
+			.sergeeva {
+				background: url("./images/sergeeva.jpg") top;
+			}
+			.davidova {
+				background: url("./images/davidova.jpg") top;
+			}
+			.akrishora {
+				background: url("./images/akrishora.JPG") top;
+				-moz-transform: scaleX(-1);
+				-o-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				transform: scaleX(-1);
+			}
+			.masuk {
+				background: url("./images/masuk.jpg") top;
+			}
+			.matysova {
+				background: url("./images/matysova.jpg") top;
+			}
+		}
+	}
+}

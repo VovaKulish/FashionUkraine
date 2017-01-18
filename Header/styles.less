@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	font-family: Corbel, Arial, Helvetica, sans-serif;
+	a {
+		text-decoration: none;
+	}
+	ul {
+		padding-left: 0;
+		list-style-type: none;
+	}
+}
+
+.site-header {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 17px;
+	.logo {
+		display: inline-block;
+		padding-top: 15px;
+	}
+	.header-content {
+		float: right;
+		.call-back {
+			background-color: #7dbbdb;
+			border-radius: 0 0 10px 10px;
+			height: 30px;
+			display: inline-block;
+			vertical-align: top;
+			margin: 1px 0 0 25px;
+			a {
+				color: #fff;
+				line-height: 30px;
+				padding: 0 20px;
+			}
+		}
+		.socials {
+			display: inline-block;
+			height: 31px;
+			a {
+				margin-right: 5px;
+				vertical-align: top;
+			}
+		}
+		.basket-delivery {
+			display: inline-block;
+			height: 31px;
+			vertical-align: top;
+			margin-right: 15px;
+			> a {
+				font-size: 14px;
+				color: #7C8999;
+			}
+			.basket {
+				position: relative;
+				margin-left: 10px;
+			}
+			.basket:before {
+				content: '';
+				display: inline-block;
+				width: 5px;
+				height: 5px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				background-color: #016587;
+				position: absolute;
+				top: ~"calc(50% - 2px)";
+				left: -12px;
+			}
+			.payment-delivery {
+				margin-right: 10px;
+				line-height: 31px;
+			}
+		}
+	}
+}
+
+.site-navigation {
+	font-size: 17px;
+	text-align: center;
+	ul.main {
+		display: inline-block;
+		margin-top: 0;
+		 a {
+			display: inline-block;
+		}
+		> li:hover {
+			ul.sub-menu {
+				display: block;
+				min-width: 160px;
+			}
+		}
+		> li {
+			display: inline-block;
+			position: relative;
+		}
+		> li > a {
+			height: 27px;
+		}
+		> li > a::after {
+			display:block;
+			content:attr(title);
+			font-weight:bold;
+			height:1px;
+			color:transparent;
+			overflow:hidden;
+			visibility:hidden;
+		}
+		ul.sub-menu {
+			display: none;
+			position: absolute;
+			text-align: left;
+			border-left: 2px solid #D6DFEA;
+			top: 17px;
+
+			> li {
+				font-size: 14px;
+			}
+			
+			> li:nth-child(1){
+	  			padding-top: 10px;
+			}
+		}
+		a {
+			color: #7C8999;
+			padding: 0 25px;
+		}
+		a:hover {
+			font-weight: bold;
+		}
+		> li:nth-child(n+2) > a::before {
+		  content: '';
+		  position: absolute;
+		  display: block;
+		  top: 7px;
+		  left: 0;
+		  height: 10px;
+		  border-left: 2px solid #D6DFEA;
+		}
+	}
+}

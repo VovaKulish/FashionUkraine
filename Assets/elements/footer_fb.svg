@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>fb_footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="22 22.7757344 22 0.000158028084 0.000122222222 0.000158028084 0.000122222222 22.7757344"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-1069.000000, -233.000000)">
+            <g id="Group">
+                <g id="fb_footer" transform="translate(1069.000000, 233.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M9.25020556,18.7491789 L9.25020556,11.4217326 L7.77284444,11.4217326 L7.77284444,8.92741736 L9.25020556,8.92741736 L9.25020556,6.96312827 C9.25020556,5.11957264 10.2032333,4.15686555 12.3170667,4.15686555 L14.2842333,4.15686555 L14.2842333,6.7134439 L12.7466778,6.7134439 C12.2040111,6.7134439 12.0909556,6.94321673 12.0909556,7.52412797 L12.0909556,8.92741736 L14.2842333,8.92741736 L14.0727889,11.3907591 L12.0909556,11.3907591 L12.0909556,18.7491789 L9.25020556,18.7491789 Z M0.000122222222,22.7757344 L22.0001222,22.7757344 L22.0001222,9.48168505e-05 L0.000122222222,9.48168505e-05 L0.000122222222,22.7757344 Z" id="Fill-1" fill="#4D576A" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Corbel, Arial, Helvetica, sans-serif;
+    color: #4d576a;
+}
+
+body a {
+    text-decoration: none;
+}
+
+section {
+    border-bottom: 4px solid #f4f6fe;
+    padding: 0 15px;
+}
+
+section.last-section {
+    border-bottom: none;
+}
+
+section p {
+    margin: 0;
+}
+
+section h3 {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
+
+section h3, section h4 {
+    margin: 25px 0;
+}
+
+section h4, section p {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+
+section h3, section h4, section p {
+    line-height: 20px;
+}
+
+article {
+    margin: 20px 0;
+}
+
+.payment_and_delivery {
+    max-width: 1000px;
+    margin: 0 auto 80px;
+}
+
+.two-column-article {
+    display: inline-block;
+    width: 47%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.bread-crumbs {
+    width: 100%;
+    height: 31px;
+    margin: 31px 0 44px;
+    background-color: #f8f8fa;
+}
+
+.page-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    line-height: 6px;
+    margin-bottom: 50px;
+}
+
+.page-title h1 {
+    width: 300px;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #2e435d;
+    font-family: InterFontBlack, Arial, Helvetica, sans-serif;
+}
+
+h1.title-circle:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #4d576a;
+    border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+    .payment_and_delivery {
+        max-width: 768px;
+        margin-bottom: 70px;
+    }
+    section {
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .bread-crumbs {
+        display: none;
+    }
+
+    .page-title {
+        line-height: 60px;
+        background-color: #444e5e;
+        margin-bottom: 25px;
+    }
+
+    .page-title h1 {
+        color: #fff;
+        margin: 0;
+    }
+
+    h1.title-circle:before {
+        display: none;
+    }
+
+    .payment_and_delivery {
+        max-width: 300px;
+        margin-bottom: 40px;
+    }
+    section {
+        padding: 0 10px;
+    }
+    .two-column-article {
+        display: inline-block;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    section.last-section h4 {
+        margin-bottom: 0;
+    }
+}
